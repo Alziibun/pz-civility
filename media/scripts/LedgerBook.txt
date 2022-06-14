@@ -1,0 +1,22 @@
+module Civility {
+    imports {
+        Base
+    }
+
+    item Ledger
+    {
+        Type = Normal,
+        DisplayName = Blank Ledger,
+        Icon = Base.Book,
+        Weight = 0.8,
+    }
+
+    recipe Convert to ledger
+    {
+        Base.Book,
+
+        Result:Ledger,
+        Sound:OpenBook,
+        Time:3.0
+    }
+}
