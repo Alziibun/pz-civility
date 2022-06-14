@@ -32,7 +32,7 @@ function Ledger.menuButton:new()
     return meta
 end
 
-function Ledger.menu:onGameStart()
+function Ledger.menu:create()
 
     print('CivilUI: Creating Ledger menu.')
     myLedger = Ledger.menu:new()
@@ -40,4 +40,4 @@ function Ledger.menu:onGameStart()
     myLedger:setTitle("hi")
 end
 
-Events.OnGameStart.Add(Ledger.menu.onGameStart)
+Events.OnCreateUI.Add(Ledger.menu.create)
