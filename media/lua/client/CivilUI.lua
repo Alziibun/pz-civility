@@ -32,10 +32,6 @@ function Ledger.menuButton:new()
     return meta
 end
 
-function Ledger:createTown(tname)
-    return
-end
-
 function Ledger.menu:onGameStart()
 
     print('CivilUI: Creating Ledger menu.')
