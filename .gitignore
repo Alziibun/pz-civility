@@ -4,7 +4,7 @@ out/
 !**/src/test/**/out/
 .idea/*
 local.properties
-pz-civility.iml
+*.iml
 version.properties
 *.gradle
 .gradle/*
