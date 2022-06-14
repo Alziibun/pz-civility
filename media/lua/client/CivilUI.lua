@@ -26,12 +26,6 @@ function Ledger.menu:new()
     return meta
 end
 
-function Ledger.menuButton:new()
-    local meta = {}
-    setmetatable(meta, self)
-    return meta
-end
-
 function Ledger.menu:create()
 
     print('CivilUI: Creating Ledger menu.')
